@@ -1,5 +1,3 @@
-import digital from "./assets/Digital-Marketing-for-Dummies-book-cover.jpg";
-
 export const genres = [
   {
     id: 1,
