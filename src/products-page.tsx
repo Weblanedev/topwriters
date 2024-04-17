@@ -108,7 +108,7 @@ const ProductsPage = ({
                   onClick={() => setSelectedBook(book)}
                   className="text-base font-medium text-white bg-blue-400 rounded-md px-7 md:px-8 py-2 md:py-3 hover:bg-blue-600 flex items-center justify-center gap-3"
                 >
-                  Purchase
+                  Order Now
                 </Link>
               </div>
             ))}
