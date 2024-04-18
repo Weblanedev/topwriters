@@ -1,26 +1,6 @@
 import { useEffect, useState } from "react";
 export default function AboutUs() {
     const [state, setState] = useState("Mission")
-    const Lorem = [
-        {
-            id: 1,
-            value: "2021",
-            answer: "Since 2021, we've empowered countless industries to optimize processes and conserve energy, resulting in substantial savings in heating and cooling operations"
-
-        },
-        {
-            id: 2,
-            value: "+400",
-            answer: "we are committed to driving tangible results and sustainability. At Cointrip, we believe in maximizing performance while minimizing environmental impact, ensuring a brighter and more efficient future for all"
-
-        },
-        {
-            id: 3,
-            value: "+800",
-            answer: "With our innovative approach, we ensure maximum performance and sustainability, making a measurable impact on the bottom line and the environment"
-
-        },
-    ]
     useEffect(() => {
       window.scrollTo({
         top: 0,
