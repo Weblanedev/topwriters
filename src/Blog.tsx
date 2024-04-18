@@ -6,12 +6,9 @@ const Blog = () => {
 		<div className="pt-[102px] pb-[77px] container mx-auto">
 			{/* <SectionContainer> */}
 				<div className="text-center sm:pb-[51px]" data-aos="fade-up">
-					<h1 className="text-[40px] leading-[51px] lg:text-[48px] lg:leading-[61px] xl:text-[58px] xl:leading-[74px] font-[700] text-black">
-						Press Releases
-					</h1>
 					<p className="sm:w-[55%] m-auto text-blacks-three mt-[30px] mb-[40px] text-[16px] leading-[30px] lg:text-[18px] xl:text-[22px] xl:leading-[30px] font-[400]">
-						Stay updated on the latest news, features and releases on
-						Counterflow Technologies.
+						Stay updated on the latest news with regards to
+						Cointrip Technology.
 					</p>
 				</div>
 

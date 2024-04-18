@@ -18,10 +18,10 @@ const Navbar = () => {
 
       <div className="md:flex items-center justify-center gap-14 hidden">
         <Link
-          to="/blog"
+          to="/news"
           className="text-[16px] leading-[24px] font-medium text-[#333333] cursor-pointer"
         >
-          Blog
+          News
         </Link>
         <Link
           to="/services"

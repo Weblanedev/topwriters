@@ -75,7 +75,7 @@ const Contact = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Contact Us
           </h1>
-          <p>Find the best way to get help and connect with Counterflow</p>
+          <p>Find the best way to get help and connect with COINTRIP TECHNOLOGY</p>
         </div>
       </section>
 
@@ -176,7 +176,7 @@ const Contact = () => {
                 Mail Us
               </h4>
               <p className="text-orange-500 leading-[16px]">
-              support@bronzetent.com
+              support@cointriptech.com
               </p>
             </div>
           </div>

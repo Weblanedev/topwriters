@@ -52,7 +52,7 @@ const ProductsPage = ({
             onClick={handleScroll}
             className="text-base font-medium text-white bg-blue-400 rounded-md px-7 md:px-12 py-4 md:py-5 hover:bg-blue-600 flex items-center justify-center gap-3"
           >
-            Explore Products
+            Explore Services
           </Link>
         </div>
 

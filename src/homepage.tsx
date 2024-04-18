@@ -24,12 +24,11 @@ const Homepage = () => {
       <section className="flex overflow-hidden relative flex-col-reverse md:flex-row h-[90vh] md:h-[85vh] px-10 md:px-[130px] items-center justify-center md:justify-between gap-5 homepage">
         <div className=" text-black flex flex-col gap-9 md:gap-12 items-center justify-center md:items-start text-center">
           <h1 className="font-medium md:font-semibold text-[30px] sm:text-[40px] md:text-[50px] md:text-left w-full md:w-[530px] leading-snug md:leading-[62px] text-center text-white">
-            Seamless IT for your business, boosting your growth.
+          Empower Your Business Growth with Seamless IT Solutions
           </h1>
 
           <p className="text-center md:text-left mt-[-30px] w-[450px] md:w-[600px] text-white">
-            We provide the expertise and support to propel your business forward
-            in the digital landscape.
+          At CoinTrip, we specialize in providing expert guidance and unparalleled support to propel your business forward in the digital landscape.
           </p>
 
           <Link

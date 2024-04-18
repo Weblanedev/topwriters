@@ -41,7 +41,7 @@ const BlogTwo = () => {
             Common Cybersecurity Threats
             </h2>
             <p className="text-[16px] text-black leading-[28.8px] font-normal mt-[10px] w-full md:w-[382px]">
-            With the increasing prevalence of cyber threats, cybersecurity has become a top priority for businesses of all sizes. At Counterflow Technologies Limited, we understand the importance of protecting your digital assets and safeguarding your business against potential security breaches. In this blog post, we'll explore some cybersecurity best practices to help you mitigate risks and protect your business in the digital age.</p>
+            With the increasing prevalence of cyber threats, cybersecurity has become a top priority for businesses of all sizes. At Cointrip Technologies Limited, we understand the importance of protecting your digital assets and safeguarding your business against potential security breaches. In this blog post, we'll explore some cybersecurity best practices to help you mitigate risks and protect your business in the digital age.</p>
           </div>
 
           <img
@@ -56,7 +56,7 @@ const BlogTwo = () => {
           Regulatory Compliance
           </h3>
           <p className="text-[16px] text-black leading-[28.8px] font-normal w-full">
-          Compliance with data protection regulations is critical for businesses operating in today's digital landscape. Whether it's GDPR, CCPA, HIPAA, or industry-specific regulations, failing to comply with these requirements can result in severe consequences, including hefty fines and legal penalties. At Counterflow Technologies Limited, we help businesses achieve and maintain compliance with data protection regulations, ensuring that your sensitive data is handled securely and in accordance with legal requirements.
+          Compliance with data protection regulations is critical for businesses operating in today's digital landscape. Whether it's GDPR, CCPA, HIPAA, or industry-specific regulations, failing to comply with these requirements can result in severe consequences, including hefty fines and legal penalties. At Cointrip Technologies Limited, we help businesses achieve and maintain compliance with data protection regulations, ensuring that your sensitive data is handled securely and in accordance with legal requirements.
           </p>
         </div>
 

@@ -28,7 +28,7 @@ function App() {
         />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/news" element={<Blog />} />
         <Route
           path="/billing"
           element={<Billing selectedBook={selectedBook} />}

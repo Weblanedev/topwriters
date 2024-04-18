@@ -41,7 +41,7 @@ const BlogThree = () => {
             Leveraging Cloud Solutions for Business Success
             </h2>
             <p className="text-[16px] text-black leading-[28.8px] font-normal mt-[10px] w-full md:w-[382px]">
-            Cloud computing has revolutionized the way businesses operate, offering unprecedented scalability, flexibility, and cost-efficiency. At Counterflow Technologies Limited, we believe that cloud solutions are the future of IT infrastructure, enabling businesses to innovate faster, scale more efficiently, and stay competitive in a rapidly evolving digital landscape. In this blog post, we'll explore the benefits of cloud computing and how businesses can leverage cloud solutions for success.
+            Cloud computing has revolutionized the way businesses operate, offering unprecedented scalability, flexibility, and cost-efficiency. At Cointrip Technologies Limited, we believe that cloud solutions are the future of IT infrastructure, enabling businesses to innovate faster, scale more efficiently, and stay competitive in a rapidly evolving digital landscape. In this blog post, we'll explore the benefits of cloud computing and how businesses can leverage cloud solutions for success.
             </p>
           </div>
 
@@ -57,7 +57,7 @@ const BlogThree = () => {
           Cloud Migration Strategies
           </h3>
           <p className="text-[16px] text-black leading-[28.8px] font-normal w-full">
-          Migrating to the cloud can be a complex process that requires careful planning and execution. At Counterflow Technologies Limited, we help businesses navigate the cloud migration journey, from assessment and planning to migration and post-migration optimization. Whether you're migrating legacy applications or building cloud-native solutions, our team of cloud experts is here to guide you every step of the way.
+          Migrating to the cloud can be a complex process that requires careful planning and execution. At Cointrip Technologies Limited, we help businesses navigate the cloud migration journey, from assessment and planning to migration and post-migration optimization. Whether you're migrating legacy applications or building cloud-native solutions, our team of cloud experts is here to guide you every step of the way.
           </p>
         </div>
 
