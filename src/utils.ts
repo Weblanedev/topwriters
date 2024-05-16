@@ -50,7 +50,7 @@ export const books = [
     img: "https://images.pexels.com/photos/5926380/pexels-photo-5926380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     price: "$155",
     summary:
-      "Installation of structured cabling system (Ethernet, fiber optic, or coaxial)",
+      "Empower your writing journey with our user-friendly Writing Software and Tools, offering advanced features for brainstorming, editing, and perfecting your prose",
   },
   {
     id: 2,
