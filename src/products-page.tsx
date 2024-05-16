@@ -16,7 +16,7 @@ const ProductsPage = ({
   }, []);
 
   const [selectedGenre, setSelectedGenre] = useState<string>(
-    "Wifi Installation"
+    "Educational Resources"
   );
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -35,36 +35,35 @@ const ProductsPage = ({
 
   return (
     <div className="w-full h-full flex flex-col pt-[66px] md:pt-[80px]">
-      <section className="flex relative overflow-hidden bg-blue-400/30 flex-col-reverse md:flex-row h-[90vh] md:h-[55vh] px-10 md:px-[130px] items-center justify-center md:justify-between gap-5 border-b border-orange-900/10">
+      <section className="flex relative overflow-hidden bg-green-400/30 flex-col-reverse md:flex-row h-[90vh] md:h-[55vh] px-10 md:px-[130px] items-center justify-center md:justify-between gap-5 border-b border-orange-900/10">
         <div className=" text-black flex flex-col gap-9 md:gap-12 items-center justify-center md:items-start">
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left w-full md:w-[530px] leading-snug md:leading-[62px] text-center text-orange-950">
-            Find the right E-Book for You
+          Ready to unlock your full writing potential
           </h1>
 
-          <p className="text-center md:text-left mt-[-30px] w-[450px] md:w-[330px] text-orange-950">
-            Remote Access and Support Solutions for Individuals, Teams, and
-            Businesses
+          <p className="text-center md:text-left mt-[-30px] w-[450px] md:w-[450px] text-orange-950">
+          Explore our range of resources, services, and merchandise, and take the first step towards becoming the writer you've always dreamed of being. Start your writing adventure now!
           </p>
 
           <Link
             to="#products"
             id="products"
             onClick={handleScroll}
-            className="text-base font-medium text-white bg-blue-400 rounded-md px-7 md:px-12 py-4 md:py-5 hover:bg-blue-600 flex items-center justify-center gap-3"
+            className="text-base font-medium text-white bg-green-400 rounded-md px-7 md:px-12 py-4 md:py-5 hover:bg-green-600 flex items-center justify-center gap-3"
           >
             Explore Services
           </Link>
         </div>
 
         <img
-          src="https://149502452.v2.pressablecdn.com/wp-content/uploads/2021/05/the-best-startup-books.jpg"
+          src="https://images.pexels.com/photos/6393024/pexels-photo-6393024.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt=""
-          className="w-full h-[300px] opacity-0 md:h-[300px] md:w-[500px] object-cover rounded-full shadow-lg"
+          className="w-full h-[300px] opacity-0 md:h-[300px] md:w-[500px] object-cover"
         />
         <img
-          src="https://149502452.v2.pressablecdn.com/wp-content/uploads/2021/05/the-best-startup-books.jpg"
+          src="https://images.pexels.com/photos/6393024/pexels-photo-6393024.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt=""
-          className="w-full h-[750px] -top-96 md:top-auto absolute md:-right-20 md:h-[700px] md:w-[700px] object-cover rounded-full shadow-lg"
+          className="w-full h-[750px] -top-96 md:top-auto absolute md:right-20 md:h-[500px] md:w-[500px] object-contain"
         />
       </section>
 
@@ -75,9 +74,9 @@ const ProductsPage = ({
               onClick={() => setSelectedGenre(genre.name)}
               className={`text-sm font-medium text-white transition-colors  ${
                 selectedGenre === genre.name
-                  ? "!bg-blue-400 hover:!bg-blue-600 !text-white border border-blue-500"
-                  : "bg-white border border-blue-500 !text-blue-500 hover:bg-blue-400 hover:!text-white"
-              } rounded-md px-7 md:px-8 py-2 md:py-3 hover:bg-blue-600 flex items-center justify-center gap-3`}
+                  ? "!bg-green-400 hover:!bg-green-600 !text-white border border-green-500"
+                  : "bg-white border border-green-500 !text-green-500 hover:bg-green-400 hover:!text-white"
+              } rounded-md px-7 md:px-8 py-2 md:py-3 hover:bg-green-600 flex items-center justify-center gap-3`}
             >
               {genre.name}
             </button>
@@ -88,7 +87,7 @@ const ProductsPage = ({
           {books
             .filter((book) => book.genre === selectedGenre)
             .map((book) => (
-              <div className="flex flex-col items-center justify-center pt-12 pb-8 px-16 gap-7 bg-blue-50/50 text-blue-900 round ed-xl">
+              <div className="flex flex-col items-center justify-center pt-12 pb-8 px-16 gap-7 bg-green-50/50 text-green-900 round ed-xl">
                 <img
                   src={book.img}
                   alt=""
@@ -106,7 +105,7 @@ const ProductsPage = ({
                 <Link
                   to="/billing"
                   onClick={() => setSelectedBook(book)}
-                  className="text-base font-medium text-white bg-blue-400 rounded-md px-7 md:px-8 py-2 md:py-3 hover:bg-blue-600 flex items-center justify-center gap-3"
+                  className="text-base font-medium text-white bg-green-400 rounded-md px-7 md:px-8 py-2 md:py-3 hover:bg-green-600 flex items-center justify-center gap-3"
                 >
                   Order Now
                 </Link>

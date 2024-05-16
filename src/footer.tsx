@@ -3,10 +3,10 @@ import donate from "./assets/donate.jpg";
 
 const Footer = () => {
   return (
-    <div className="w-full border-t border-orange-900/10 bg-blue-800 flex flex-col p-10 md:p-20 gap-10 md:px-[130px]">
+    <div className="w-full border-t border-orange-900/10 bg-green-800 flex flex-col p-10 md:p-20 gap-10 md:px-[130px]">
       <div className="flex flex-col md:flex-row w-full items-center md:justify-between gap-5">
         <h3 className="text-white font-medium text-center md:text-left text-[22px] leading-[35.2px] md:w-[850px]">
-        Experience the transformative power of innovation and seamless solutions with dynamics. Our journey doesn't end with the delivery of a solution.
+        Ready to take your writing to the next level? Browse our selection of resources, sign up for an online course, or reach out to us for personalized assistance. Whatever your writing goals may be, Toplinewriters is here to help you achieve them.
         </h3>
 
         <Link
@@ -51,14 +51,14 @@ const Footer = () => {
       </div>
 
       <p className="text-[12px] leading-[24px] text-center text-orange-100/50">
-        ©COINTRIP TECHNOLOGY PLATFORMS LIMITED. All Rights Reserved
+        ©Toplinewriters. All Rights Reserved
       </p>
 
-      <Link
+      {/* <Link
             to="/donation"
              className="text-white text-xl flex gap-[20px]">
         Donate to help build our hub <img src={donate} className="w-32"></img>
-      </Link>
+      </Link> */}
     </div>
   );
 };

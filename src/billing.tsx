@@ -356,7 +356,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
             <button
               type="submit"
               disabled={isButtonDisabled}
-              className="text-base font-medium text-white bg-blue-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-red-600 w-full mt-[22px] transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-400"
+              className="text-base font-medium text-white bg-green-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-red-600 w-full mt-[22px] transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-green-400"
               onClick={handleSubmit}
             >
               Place Order

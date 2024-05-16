@@ -13,16 +13,16 @@ const Navbar = () => {
         to="/"
         className="text-[20px] md:text-[30px] md:font-bold font-medium text-[#333333]"
       >
-        COINTRIP TECHNOLOGY
+        Toplinewriters
       </Link>
 
       <div className="md:flex items-center justify-center gap-14 hidden">
-        <Link
+        {/* <Link
           to="/news"
           className="text-[16px] leading-[24px] font-medium text-[#333333] cursor-pointer"
         >
           News
-        </Link>
+        </Link> */}
         <Link
           to="/services"
           className="text-[16px] leading-[24px] font-medium text-[#333333] cursor-pointer"

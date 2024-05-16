@@ -144,7 +144,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="text-base font-medium text-white bg-blue-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-red-600 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-400"
+                className="text-base font-medium text-white bg-green-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-red-600 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-green-400"
                 onClick={toggleShowContactModal}
                 disabled={isButtonDisabled}
               >

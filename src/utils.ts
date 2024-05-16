@@ -1,15 +1,11 @@
 export const genres = [
   {
     id: 1,
-    name: "Wifi Installation",
+    name: "Educational Resources",
   },
   {
     id: 2,
-    name: "Wiring Solutions",
-  },
-  {
-    id: 3,
-    name: "Installation Services",
+    name: "Writing Services",
   },
 ];
 
@@ -27,41 +23,63 @@ export const books = [
   {
     id: 1,
     title:
-      "Basic WiFi Installation Package",
+      "Toplinewriters Writing Guide and Workbook",
     author: "Chris Guillebeau",
-    genre: "Wifi Installation",
-    img: "https://th.bing.com/th/id/OIP.G5nMoc6FRCel4rW3Kbl8bgHaE8?rs=1&pid=ImgDetMain",
-    price: "$200",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/3928938/pexels-photo-3928938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$45",
     summary:
-      "Includes installation of WiFi router and up to 2 access points",
+      "Dive into our meticulously crafted Writing Guide and Workbook",
   },
   {
     id: 1,
     title:
-      "Premium WiFi Installation Package",
+      "Toplinewriters Writing Course",
     author: "Chris Guillebeau",
-    genre: "Wifi Installation",
-    img: "https://th.bing.com/th/id/OIP.G5nMoc6FRCel4rW3Kbl8bgHaE8?rs=1&pid=ImgDetMain",
-    price: "$500",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/4792729/pexels-photo-4792729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$120",
     summary:
       "Includes installation of WiFi router and up to 4 access points",
   },
   {
-    id: 2,
-    title: "Standard Structured Cabling Installation",
+    id: 1,
+    title: "Toplinewriters Writing Software",
     author: "Howard C. Warren",
-    genre: "Wiring Solutions",
-    img: "https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$325",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/5926380/pexels-photo-5926380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$155",
     summary:
       "Installation of structured cabling system (Ethernet, fiber optic, or coaxial)",
   },
   {
-    id: 4,
+    id: 2,
+    title:
+      "Editing and Proofreading Services",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/6248718/pexels-photo-6248718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$220",
+    summary:
+      "Let our team of experienced writers breathe life into your ideas with our Custom Writing Services.",
+  },
+  {
+    id: 2,
+    title:
+      "Book Publishing Services",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/20092855/pexels-photo-20092855/free-photo-of-open-book-by-flowers-and-cup-on-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$345",
+    summary:
+      "Ready to share your story with the world? Explore our Book Publishing Services, where we guide you through every step of the publishing process.",
+  },
+  {
+    id: 3,
     title:
       "Standard Structured Installation",
     author: "Sandeep Madamanchi",
-    genre: "Installation Services",
+    genre: "Merchandise",
     img: "https://images.pexels.com/photos/4339335/pexels-photo-4339335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     price: "$245",
     summary:
@@ -97,47 +115,53 @@ export const blog = [
 export const Faqs = [
   {
     id: 1,
-    question: "What types of installation and wiring services does Cointrip offer?",
-    answer: "Cointrip specializes in a wide range of installation and wiring services, including professional installation of networking equipment, servers, workstations, structured cabling systems (Ethernet, fiber optic, coaxial), WiFi installation, and more."
+    question: "What is Toplinewriters?",
+    answer: "Toplinewriters is a platform dedicated to supporting writers of all levels. We offer a variety of resources, services, and community support to help writers hone their skills, express themselves effectively, and achieve their writing goals."
 
   },
   {
     id: 2,
-    question: "How does Cointrip ensure the reliability and performance of its installation and wiring solutions?",
-    answer: "Cointrip employs expert technicians with extensive experience in IT infrastructure installation and wiring. We adhere to industry best practices and use high-quality materials and equipment to ensure reliability, performance, and longevity of our solutions."
+    question: "Who can benefit from Toplinewriters?",
+    answer: "Our platform is designed for writers of all levels, from beginners looking to improve their skills to seasoned professionals seeking advanced resources and services. Whether you're a novelist, blogger, student, freelancer, or business owner, Toplinewriters has something for you."
 
   },
   {
     id: 3,
-    question: "Can Cointrip assist with WiFi installation and optimization?",
-    answer: "Yes, Cointrip offers comprehensive WiFi installation services, including design, deployment, and optimization of wireless networks. Our experts handle everything from access point installation to configuration and troubleshooting, ensuring seamless connectivity across indoor and outdoor environments."
+    question: "Do you offer personalized writing assistance?",
+    answer: "Yes, we offer personalized writing assistance through our professional editing, proofreading, and publishing services. Whether you need help with editing your manuscript, proofreading your article, or preparing your book for publication, our team of experts is here to assist you."
 
   },
   {
     id: 4,
-    question: "What industries does Cointrip serve with its installation and wiring services?",
-    answer: "Cointrip caters to a diverse range of industries, including but not limited to, businesses, educational institutions, healthcare facilities, government agencies, retail establishments, and residential properties."
+    question: "How can I get involved with Toplinewriters?",
+    answer: "There are many ways to get involved with Toplinewriters! You can explore our resources, enroll in online courses, take advantage of our services, join our writing community, or simply engage with us on social media. Whatever your interests may be, we welcome you to join us on your writing journey."
 
   },
 ]
 
 export const Services = [
   {
-      Title: "Installation Services",
-      SubText: "Professional installation of networking equipment, servers, workstations, and other IT infrastructure components to ensure optimal performance and reliability.",
+      Title: "Comprehensive Resources",
+      SubText: "From writing guides and online courses to writing software and tools, we provide a wide range of resources to help you enhance your writing skills and creativity.",
       img: "https://th.bing.com/th/id/R.fc983b799d84f709fac68fd101dd205d?rik=8Ve0vlQ7c2IZnQ&pid=ImgRaw&r=0&sres=1&sresct=1"
 
   },
   {
-      Title: "WiFi Installation:",
-      SubText: "Expert design and installation of structured cabling systems, including Ethernet, fiber optic, and coaxial cables, to support high-speed data transfer and communication networks.",
+      Title: "Expert Guidance",
+      SubText: "Learn from experienced writers and industry experts through our online courses, workshops, and writing retreats. Get personalized feedback and advice to take your writing to the next level.",
       img: "https://th.bing.com/th/id/R.5467691f1ddbdf7302d9a8d5b17f8ba0?rik=5nb1Oxe4IcrQTQ&pid=ImgRaw&r=0"
 
   },
   {
-      Title: "Wiring Solutions",
-      SubText: "Design, deployment, and optimization of wireless networks, including access point installation, configuration, and troubleshooting, to provide seamless connectivity across indoor and outdoor environments",
+      Title: "Professional Services",
+      SubText: "Need help with editing, proofreading, or publishing your work? Our team of professional editors, proofreaders, and publishing consultants is here to assist you every step of the way.",
       img: "https://th.bing.com/th/id/R.b3a10fcbe98539aabe843b49bc0f27ba?rik=GDr%2bXFfRy8s0bQ&pid=ImgRaw&r=0"
 
-  }
+  },
+  {
+    Title: "Community Support",
+    SubText: "Join our vibrant writing community to connect with fellow writers, share your work, and receive support and encouragement from like-minded individuals. Together, we'll celebrate successes, overcome challenges, and grow as writers.",
+    img: "https://th.bing.com/th/id/R.b3a10fcbe98539aabe843b49bc0f27ba?rik=GDr%2bXFfRy8s0bQ&pid=ImgRaw&r=0"
+
+}
 ]
