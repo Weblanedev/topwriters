@@ -75,7 +75,7 @@ const Contact = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Contact Us
           </h1>
-          <p>Find the best way to get help and connect with COINTRIP TECHNOLOGY</p>
+          <p>Find the best way to get help and connect with us</p>
         </div>
       </section>
 
@@ -159,24 +159,13 @@ const Contact = () => {
             <h2 className="text-[35px] font-medium">Other ways to reach us:</h2>
           </div>
           <div className="flex gap-5 items-start justify-center">
-            <img src={phoneIcon} alt="" className="w-6 pt-1" />
-            <div className="flex flex-col items-start justify-center gap-3">
-              <h4 className="text-[24px] leading-[24px] font-medium">
-                Call Us
-              </h4>
-              <p className="text-orange-500 leading-[16px]">
-                +234 908-398-9079
-              </p>
-            </div>
-          </div>
-          <div className="flex gap-5 items-start justify-center">
             <img src={mailIcon} alt="" className="w-6 pt-1" />
             <div className="flex flex-col items-start justify-center gap-3">
               <h4 className="text-[24px] leading-[24px] font-medium">
                 Mail Us
               </h4>
               <p className="text-orange-500 leading-[16px]">
-              support@cointriptech.com
+              operations@toplinewriters.ng
               </p>
             </div>
           </div>
@@ -187,7 +176,7 @@ const Contact = () => {
                 Address
               </h4>
               <p className="text-orange-500 leading-normal">
-                Lagos, Nigeira
+              185 Meiran Road, Abule-Egba, Lagos
               </p>
             </div>
           </div>

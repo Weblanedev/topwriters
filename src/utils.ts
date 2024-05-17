@@ -40,7 +40,7 @@ export const books = [
     img: "https://images.pexels.com/photos/4792729/pexels-photo-4792729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     price: "$120",
     summary:
-      "Includes installation of WiFi router and up to 4 access points",
+      "Elevate your craft further with our Online Writing Courses.",
   },
   {
     id: 1,
