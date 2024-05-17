@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import donate from "./assets/donate.jpg";
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
