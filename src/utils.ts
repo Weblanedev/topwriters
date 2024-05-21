@@ -57,6 +57,66 @@ export const books = [
       "Empower your writing journey with our user-friendly Writing Software and Tools, offering advanced features for brainstorming, editing, and perfecting your prose",
   },
   {
+    id: 1,
+    title: "Toplinewriters Style Guide",
+    author: "Howard C. Warren",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/1181681/pexels-photo-1181681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$125",
+    summary:
+      "We provide specialized guides on different writing styles, such as APA, MLA, Chicago, and AP, to help writers format their work correctly.",
+  },
+  {
+    id: 1,
+    title: "Toplinewriters Writing Exercise Books",
+    author: "Howard C. Warren",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=300",
+    price: "$45",
+    summary:
+      "We offer books filled with exercises designed to improve various aspects of writing, such as dialogue, character development, plot structuring, and descriptive language.",
+  },
+  {
+    id: 1,
+    title: "Toplinewriters Writing Templates",
+    author: "Howard C. Warren",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/4050287/pexels-photo-4050287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$185",
+    summary:
+      "We provide downloadable templates for various writing projects, including novel outlines, short story frameworks, and research paper structures.",
+  },
+  {
+    id: 1,
+    title: "Toplinewriters Writing Worksheets",
+    author: "Howard C. Warren",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/783737/pexels-photo-783737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$115",
+    summary:
+      "We provide downloadable worksheets for various writing projects, including novel outlines, short story frameworks, and research paper structures.",
+  },
+    {
+    id: 1,
+    title: "Toplinewriters Productivity Course",
+    author: "Howard C. Warren",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/955404/pexels-photo-955404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$205",
+    summary:
+      "We have resources on maintaining motivation, overcoming procrastination, and boosting writing productivity.",
+  },
+  {
+    id: 1,
+    title: "Toplinewriters Creativity Coaching",
+    author: "Howard C. Warren",
+    genre: "Educational Resources",
+    img: "https://images.pexels.com/photos/3786763/pexels-photo-3786763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$325",
+    summary:
+      "We offer coaching sessions that focus on developing a writer’s mindset, overcoming creative blocks, and nurturing creativity.",
+  },
+  {
     id: 2,
     title:
       "Editing and Proofreading Services",
@@ -88,6 +148,61 @@ export const books = [
     price: "$285",
     summary:
       "We Offer books or digital downloads of curated writing prompts to inspire creativity and help writers overcome writer's block.",
+  },
+  {
+    id: 2,
+    title:
+      "Self-Publishing Guide",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/606541/pexels-photo-606541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$300",
+    summary:
+      "We develop detailed guides to navigate the self-publishing process, covering topics like ISBNs, cover design, and distribution options.",
+  },
+  {
+    id: 2,
+    title:
+      "Ghostwriting Services",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/3278757/pexels-photo-3278757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$800",
+    summary:
+      "We offer professional ghostwriting services for clients needing books, articles, or other content written on their behalf.",
+  },
+  {
+    id: 2,
+    title:
+      "Translation Services",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/3823488/pexels-photo-3823488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$225",
+    summary:
+      "We provide translation services for writers looking to reach a global audience by having their works translated into different languages.",
+  },
+  {
+    id: 2,
+    title:
+      "Query Letter and Synopsis Services",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$450",
+    summary:
+      "Help writers craft compelling query letters and synopses to submit to literary agents and publishers.",
+  },
+  {
+    id: 2,
+    title:
+      "Marketing and Promotion Packages",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$630",
+    summary:
+      "Offer comprehensive marketing and promotion services for self-published authors, including social media campaigns, book trailers, and press releases.",
   },
   {
     id: 2,
@@ -132,6 +247,39 @@ export const books = [
     price: "$55",
     summary:
       "We Provide kits for aspiring freelance writers with contract templates, pitch examples, and client management tools.",
+  },
+  {
+    id: 3,
+    title:
+      "Inspirational Posters and Prints",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/3747314/pexels-photo-3747314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$35",
+    summary:
+      "We Provide kits for aspiring freelance writers with contract templates, pitch examples, and client management tools.",
+  },
+  {
+    id: 3,
+    title:
+      "Writing-themed Stationery Sets",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/6368906/pexels-photo-6368906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$40",
+    summary:
+      "We also Design posters and prints featuring motivational quotes and beautiful artwork to inspire writers in their creative spaces.",
+  },
+  {
+    id: 3,
+    title:
+      "Customizable Journals",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/1018133/pexels-photo-1018133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$20",
+    summary:
+      "We Offer personalized journals where writers can choose cover designs, add their names, or select custom quotes to be featured.",
   },
 ];
 

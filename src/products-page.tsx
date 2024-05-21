@@ -83,7 +83,7 @@ const ProductsPage = ({
           ))}
         </div>
 
-        <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
+        <div className="grid gird-cols-1 md:grid-cols-4 gap-6">
           {books
             .filter((book) => book.genre === selectedGenre)
             .map((book) => (

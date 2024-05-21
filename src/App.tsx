@@ -13,7 +13,6 @@ import BlogThree from "./blog-three";
 import { useState } from "react";
 import { Book, books } from "./utils";
 import Blog from "./Blog";
-import Donation from "./donation";
 
 function App() {
   const [selectedBook, setSelectedBook] = useState<Book>(books[1]);
@@ -32,10 +31,6 @@ function App() {
         <Route
           path="/billing"
           element={<Billing selectedBook={selectedBook} />}
-        />
-        <Route
-          path="/donation"
-          element={<Donation />}
         />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route
