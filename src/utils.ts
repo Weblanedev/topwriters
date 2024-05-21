@@ -7,6 +7,10 @@ export const genres = [
     id: 2,
     name: "Writing Services",
   },
+  {
+    id: 3,
+    name: "Writing Kits",
+  },
 ];
 
 export interface Book {
@@ -75,15 +79,59 @@ export const books = [
       "Ready to share your story with the world? Explore our Book Publishing Services, where we guide you through every step of the publishing process.",
   },
   {
+    id: 2,
+    title:
+      "Writing Prompt Collections",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/2682452/pexels-photo-2682452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$285",
+    summary:
+      "We Offer books or digital downloads of curated writing prompts to inspire creativity and help writers overcome writer's block.",
+  },
+  {
+    id: 2,
+    title:
+      "Research Assistance",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Services",
+    img: "https://images.pexels.com/photos/1181435/pexels-photo-1181435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$525",
+    summary:
+      "We Offer services to assist writers in gathering and organizing research materials for their writing projects.",
+  },
+  {
     id: 3,
     title:
-      "Standard Structured Installation",
+      "Writer's Inspiration Kits",
     author: "Sandeep Madamanchi",
-    genre: "Merchandise",
-    img: "https://images.pexels.com/photos/4339335/pexels-photo-4339335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$245",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/6044286/pexels-photo-6044286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$45",
     summary:
-      "Follow the journey of an IT manager at Cointrip Technologies Limited as he implements DevOps practices to transform the company's infrastructure, driving efficiency and success.",
+      "A Curated kits with items like a beautiful journal, a high-quality pen, inspirational quotes, and writing prompts to spark creativity.",
+  },
+  {
+    id: 3,
+    title:
+      "Novel-Writing Kits",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&w=600",
+    price: "$72",
+    summary:
+      "We Offer kits specifically designed for novelists, including plotting worksheets, character development templates, and timeline trackers.",
+  },
+  {
+    id: 3,
+    title:
+      "Freelance Writing Starter Kits",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/4050302/pexels-photo-4050302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$55",
+    summary:
+      "We Provide kits for aspiring freelance writers with contract templates, pitch examples, and client management tools.",
   },
 ];
 

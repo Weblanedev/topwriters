@@ -87,7 +87,7 @@ const ProductsPage = ({
           {books
             .filter((book) => book.genre === selectedGenre)
             .map((book) => (
-              <div className="flex flex-col items-center justify-center pt-12 pb-8 px-16 gap-7 bg-green-50/50 text-green-900 round ed-xl">
+              <div className="flex flex-col items-center justify-center pt-12 pb-8 px-8 gap-7 bg-green-50/50 text-green-900 round ed-xl">
                 <img
                   src={book.img}
                   alt=""
