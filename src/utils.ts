@@ -281,6 +281,39 @@ export const books = [
     summary:
       "We Offer personalized journals where writers can choose cover designs, add their names, or select custom quotes to be featured.",
   },
+  {
+    id: 3,
+    title:
+      "Screenwriting Kit",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$29",
+    summary:
+      "This includes Screenplay formatting guides, scene index cards, dialogue tips booklet, scriptwriting software trial, and a storyboard template.",
+  },
+  {
+    id: 3,
+    title:
+      "Poetry Writing Kit",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/2451568/pexels-photo-2451568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$37",
+    summary:
+      "This includes A poetry journal, prompts for different poetic forms (sonnets, haikus, free verse, etc.), a rhyming dictionary, and an analysis of famous poems.",
+  },
+  {
+    id: 3,
+    title:
+      "Comic Book Writing Kit",
+    author: "Sandeep Madamanchi",
+    genre: "Writing Kits",
+    img: "https://images.pexels.com/photos/16516/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    price: "$37",
+    summary:
+      "This includes Comic strip templates, character design guides, dialogue tips, panel layout guides, and a booklet on creating compelling storylines.",
+  },
 ];
 
 
