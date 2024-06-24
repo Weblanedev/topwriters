@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useModals } from "./useModal";
 import ShowContactModal from "./show-contact";
+import phoneIcon from "./assets/phone.png";
 import mailIcon from "./assets/mail.png";
 import locationIcon from "./assets/location.png";
 
@@ -156,6 +157,17 @@ const Contact = () => {
         <div className="flex flex-col gap-10 items-start justify-center max-w-[300p x] md:w-full">
           <div className="flex flex-col gap-2.5 text-[#181616] items-center justify-center my-[34px]">
             <h2 className="text-[35px] font-medium">Other ways to reach us:</h2>
+          </div>
+          <div className="flex gap-5 items-start justify-center">
+            <img src={phoneIcon} alt="" className="w-6 pt-1" />
+            <div className="flex flex-col items-start justify-center gap-3">
+              <h4 className="text-[24px] leading-[24px] font-medium">
+                Call Us
+              </h4>
+              <p className="text-orange-500 leading-[16px]">
+                +234 908-398-9079
+              </p>
+            </div>
           </div>
           <div className="flex gap-5 items-start justify-center">
             <img src={mailIcon} alt="" className="w-6 pt-1" />
