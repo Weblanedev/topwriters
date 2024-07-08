@@ -22,7 +22,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
 
     // Formatting the result back to the original format
     const formattedResult = result.toFixed(2);
-    const output = `$${formattedResult}`;
+    const output = `₦${formattedResult}`;
 
     return output;
   }
@@ -168,7 +168,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
                 Professional consultation service charge
               </h4>
               <h4 className="text-[#161616] font-medium text-[16px]">
-                $100.00
+              ₦25000.00
               </h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">
@@ -176,7 +176,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
                 Processing Fee
               </h4>
               <h4 className="text-[#161616] font-medium text-[16px]">
-                $5.00
+              ₦5000.00
               </h4>
             </div>
             <div className="flex items-center justify-between py-[15px] w-full border-b">

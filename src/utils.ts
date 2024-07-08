@@ -31,7 +31,7 @@ export const books = [
     author: "Chris Guillebeau",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/3928938/pexels-photo-3928938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$45",
+    price: "₦45,000",
     summary:
       "Dive into our meticulously crafted Writing Guide and Workbook",
   },
@@ -42,7 +42,7 @@ export const books = [
     author: "Chris Guillebeau",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/4792729/pexels-photo-4792729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$120",
+    price: "₦12,000",
     summary:
       "Elevate your craft further with our Online Writing Courses.",
   },
@@ -52,7 +52,7 @@ export const books = [
     author: "Howard C. Warren",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/5926380/pexels-photo-5926380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$155",
+    price: "₦17,500",
     summary:
       "Empower your writing journey with our user-friendly Writing Software and Tools, offering advanced features for brainstorming, editing, and perfecting your prose",
   },
@@ -62,7 +62,7 @@ export const books = [
     author: "Howard C. Warren",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/1181681/pexels-photo-1181681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$125",
+    price: "₦25,000",
     summary:
       "We provide specialized guides on different writing styles, such as APA, MLA, Chicago, and AP, to help writers format their work correctly.",
   },
@@ -72,7 +72,7 @@ export const books = [
     author: "Howard C. Warren",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=300",
-    price: "$45",
+    price: "₦45,500",
     summary:
       "We offer books filled with exercises designed to improve various aspects of writing, such as dialogue, character development, plot structuring, and descriptive language.",
   },
@@ -82,7 +82,7 @@ export const books = [
     author: "Howard C. Warren",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/4050287/pexels-photo-4050287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$185",
+    price: "₦18,500",
     summary:
       "We provide downloadable templates for various writing projects, including novel outlines, short story frameworks, and research paper structures.",
   },
@@ -92,7 +92,7 @@ export const books = [
     author: "Howard C. Warren",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/783737/pexels-photo-783737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$115",
+    price: "₦25,300",
     summary:
       "We provide downloadable worksheets for various writing projects, including novel outlines, short story frameworks, and research paper structures.",
   },
@@ -102,7 +102,7 @@ export const books = [
     author: "Howard C. Warren",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/955404/pexels-photo-955404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$205",
+    price: "₦20,500",
     summary:
       "We have resources on maintaining motivation, overcoming procrastination, and boosting writing productivity.",
   },
@@ -112,7 +112,7 @@ export const books = [
     author: "Howard C. Warren",
     genre: "Educational Resources",
     img: "https://images.pexels.com/photos/3786763/pexels-photo-3786763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$325",
+    price: "₦32,500",
     summary:
       "We offer coaching sessions that focus on developing a writer’s mindset, overcoming creative blocks, and nurturing creativity.",
   },
@@ -123,7 +123,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/6248718/pexels-photo-6248718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$220",
+    price: "₦22,000",
     summary:
       "Let our team of experienced writers breathe life into your ideas with our Custom Writing Services.",
   },
@@ -134,7 +134,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/20092855/pexels-photo-20092855/free-photo-of-open-book-by-flowers-and-cup-on-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$345",
+    price: "₦34,500",
     summary:
       "Ready to share your story with the world? Explore our Book Publishing Services, where we guide you through every step of the publishing process.",
   },
@@ -145,7 +145,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/2682452/pexels-photo-2682452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$285",
+    price: "₦28,500",
     summary:
       "We Offer books or digital downloads of curated writing prompts to inspire creativity and help writers overcome writer's block.",
   },
@@ -156,7 +156,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/606541/pexels-photo-606541.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$300",
+    price: "₦30,000",
     summary:
       "We develop detailed guides to navigate the self-publishing process, covering topics like ISBNs, cover design, and distribution options.",
   },
@@ -167,7 +167,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/3278757/pexels-photo-3278757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$800",
+    price: "₦28,000",
     summary:
       "We offer professional ghostwriting services for clients needing books, articles, or other content written on their behalf.",
   },
@@ -178,7 +178,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/3823488/pexels-photo-3823488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$225",
+    price: "₦22,500",
     summary:
       "We provide translation services for writers looking to reach a global audience by having their works translated into different languages.",
   },
@@ -189,7 +189,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$450",
+    price: "₦45,000",
     summary:
       "Help writers craft compelling query letters and synopses to submit to literary agents and publishers.",
   },
@@ -200,7 +200,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$630",
+    price: "₦63,000",
     summary:
       "Offer comprehensive marketing and promotion services for self-published authors, including social media campaigns, book trailers, and press releases.",
   },
@@ -211,7 +211,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Services",
     img: "https://images.pexels.com/photos/1181435/pexels-photo-1181435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$525",
+    price: "₦52,500",
     summary:
       "We Offer services to assist writers in gathering and organizing research materials for their writing projects.",
   },
@@ -222,7 +222,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/6044286/pexels-photo-6044286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$45",
+    price: "₦45,000",
     summary:
       "A Curated kits with items like a beautiful journal, a high-quality pen, inspirational quotes, and writing prompts to spark creativity.",
   },
@@ -233,7 +233,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?auto=compress&cs=tinysrgb&w=600",
-    price: "$72",
+    price: "₦7,200",
     summary:
       "We Offer kits specifically designed for novelists, including plotting worksheets, character development templates, and timeline trackers.",
   },
@@ -244,7 +244,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/4050302/pexels-photo-4050302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$55",
+    price: "₦55,000",
     summary:
       "We Provide kits for aspiring freelance writers with contract templates, pitch examples, and client management tools.",
   },
@@ -255,7 +255,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/3747314/pexels-photo-3747314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$35",
+    price: "₦35,000",
     summary:
       "We Provide kits for aspiring freelance writers with contract templates, pitch examples, and client management tools.",
   },
@@ -266,7 +266,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/6368906/pexels-photo-6368906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$40",
+    price: "₦14,000",
     summary:
       "We also Design posters and prints featuring motivational quotes and beautiful artwork to inspire writers in their creative spaces.",
   },
@@ -277,7 +277,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/1018133/pexels-photo-1018133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$20",
+    price: "₦20,000",
     summary:
       "We Offer personalized journals where writers can choose cover designs, add their names, or select custom quotes to be featured.",
   },
@@ -288,7 +288,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$29",
+    price: "₦29,000",
     summary:
       "This includes Screenplay formatting guides, scene index cards, dialogue tips booklet, scriptwriting software trial, and a storyboard template.",
   },
@@ -299,7 +299,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/2451568/pexels-photo-2451568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$37",
+    price: "₦37,000",
     summary:
       "This includes A poetry journal, prompts for different poetic forms (sonnets, haikus, free verse, etc.), a rhyming dictionary, and an analysis of famous poems.",
   },
@@ -310,7 +310,7 @@ export const books = [
     author: "Sandeep Madamanchi",
     genre: "Writing Kits",
     img: "https://images.pexels.com/photos/16516/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    price: "$37",
+    price: "₦37,000",
     summary:
       "This includes Comic strip templates, character design guides, dialogue tips, panel layout guides, and a booklet on creating compelling storylines.",
   },
