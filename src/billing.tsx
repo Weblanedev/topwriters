@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useModals } from "./useModal";
 import ShowOrderModal from "./show-order";
 import { Book } from "./utils";
+import { numberWithCommas } from "./helper/numbersWithComma";
 
 const Billing = ({ selectedBook }: { selectedBook: Book }) => {
   useEffect(() => {
@@ -18,7 +19,7 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
     const numericalPart = parseFloat(input.replace(/[^\d.]/g, ""));
 
     // Adding 100 to the numerical part
-    const result = numericalPart + 105;
+    const result = numericalPart + 25000;
 
     // Formatting the result back to the original format
     const formattedResult = result.toFixed(2);
@@ -139,56 +140,10 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
               ></textarea>
             </div>
           </div>
-        </div>
-
-        <div className="flex flex-col gap-[15px] items-start w-full justify-center">
-          <h4 className="font-bold text-[#a20401] leading-[28px]">
-            YOUR ORDER
-          </h4>
-
-          <div className="flex mt-[-5px] flex-col items-center justify-center w-full">
-            <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#707070] font-medium text-[13px]">
-                PRODUCT
-              </h4>
-              <h4 className="text-[#707070] font-medium text-[13px]">
-                SUBTOTAL
-              </h4>
-            </div>
-            <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#161616] font-medium text-[16px] leading-5 upperc ase w-[350px]">
-                {selectedBook?.title}
-              </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
-                {selectedBook?.price}
-              </h4>
-            </div>
-            <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#707070] uppercase font-medium text-[13px]">
-                Professional consultation service charge
-              </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
-              ₦25000.00
-              </h4>
-            </div>
-            <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#707070] uppercase font-medium text-[13px]">
-                Processing Fee
-              </h4>
-              <h4 className="text-[#161616] font-medium text-[16px]">
-              ₦5000.00
-              </h4>
-            </div>
-            <div className="flex items-center justify-between py-[15px] w-full border-b">
-              <h4 className="text-[#707070] font-medium text-[13px]">TOTAL</h4>
-              <h4 className="text-[#a20401] font-medium text-[16px]">
-                {add100Dollars(selectedBook.price)}
-              </h4>
-            </div>
-          </div>
 
           <form>
             <div className="flex flex-wrap gap-3 w-full">
+            <h2 className="text-[32px] font-medium">Card Details</h2>
               <label className="relative w-full flex flex-col">
                 <span className="font-bold mb-3">Card holder's name</span>
                 <input
@@ -359,9 +314,48 @@ const Billing = ({ selectedBook }: { selectedBook: Book }) => {
               className="text-base font-medium text-white bg-green-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-red-600 w-full mt-[22px] transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-green-400"
               onClick={handleSubmit}
             >
-              Place Order
+              Complete Order
             </button>
           </form>
+        </div>
+
+        <div className="flex flex-col gap-[15px] items-start w-full justify-center">
+          <h4 className="font-bold text-[#a20401] leading-[28px]">
+            YOUR ORDER
+          </h4>
+
+          <div className="flex mt-[-5px] flex-col items-center justify-center w-full">
+            <div className="flex items-center justify-between py-[15px] w-full border-b">
+              <h4 className="text-[#707070] font-medium text-[13px]">
+                PRODUCT
+              </h4>
+              <h4 className="text-[#707070] font-medium text-[13px]">
+                SUBTOTAL
+              </h4>
+            </div>
+            <div className="flex items-center justify-between py-[15px] w-full border-b">
+              <h4 className="text-[#161616] font-medium text-[16px] leading-5 upperc ase w-[350px]">
+                {selectedBook?.title}
+              </h4>
+              <h4 className="text-[#161616] font-medium text-[16px]">
+                {selectedBook?.price}.00
+              </h4>
+            </div>
+            <div className="flex items-center justify-between py-[15px] w-full border-b">
+              <h4 className="text-[#707070] uppercase font-medium text-[13px]">
+                Professional consultation service charge
+              </h4>
+              <h4 className="text-[#161616] font-medium text-[16px]">
+              ₦25,000.00
+              </h4>
+            </div>
+            <div className="flex items-center justify-between py-[15px] w-full border-b">
+              <h4 className="text-[#707070] font-medium text-[13px]">TOTAL</h4>
+              <h4 className="text-[#a20401] font-medium text-[16px]">
+                {numberWithCommas(add100Dollars(selectedBook.price))}
+              </h4>
+            </div>
+          </div>
         </div>
       </section>
 
